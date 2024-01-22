@@ -1,7 +1,7 @@
 /*Cardin 1/16/24*/
 // var bob = 9;
 // bob = 9 + bob;
-// var karen = 5
+var karen = 5
 
 // var age = prompt("What is your age?");
 
