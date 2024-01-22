@@ -11,6 +11,6 @@ var karen = 5;
 for (let i = 0; i < 5; i++){
     if(karen % 2 !==0){
         console.log(karen)
-        karen++
+        karen++;
     }
 }
