@@ -9,8 +9,7 @@ const addAndLog = function (number){
     number += 1;
     console.log(number)
 }
-
-
+//commit help
 const processNumber = function(positiveFunction, number) {
   if (number % 2 === 0) {
     positiveFunction(number);
