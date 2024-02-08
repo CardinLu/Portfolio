@@ -4,10 +4,12 @@ arr[1] = 2;
 arr[2] = 3;
 arr[3] = 4;
 let number = 0;
+
 const addAndLog = function (number){
     number += 1;
+    console.log(number)
 }
-console.log(number)
+
 
 const processNumber = function(positiveFunction, number) {
   if (number % 2 === 0) {
@@ -18,5 +20,5 @@ const processNumber = function(positiveFunction, number) {
 }
 
 for (var i in arr){
-    positiveFunction(addAndLog, arr[i]);
+    processNumber(addAndLog, arr[i]);
 }
